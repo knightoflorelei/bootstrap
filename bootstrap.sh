@@ -1,5 +1,9 @@
 #! /bin/bash
 
+# Configure git
+git config --global user.name "knightoflorelei"
+git config --global user.email "knightoflorelei@gmail.com" 
+
 # Perform a system update
 sudo dnf update &&
 
@@ -15,17 +19,17 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" &&
 
-# Install Gnome Tweaks
+# Install Gnome Tweaks (Compress all installations into a single command later)
 sudo dnf install gnome-tweaks &&
 
 # Install neovim
 sudo dnf install neovim &&
 
 # Install zsh
-sudo dnf install zsh &&
+sudo dnf install zsh
 
-# Install Homebrew packages
-brew install lf mpd mpv scrcpy powerlevel10k ranger zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting &&
+# Install Homebrew packages (will give command not found if the shell hasn't been reloaded)
+# brew install lf mpd mpv scrcpy powerlevel10k ranger zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting &&
 
-# Install flatpak applications
-flatpak install com.brave.Browser org.gnome.gitlab.somas.Apostrophe io.github.celluloid_player.Celluloid com.mattjakeman.ExtensionManager com.discordapp.Discord
+# Install flatpak applications (not need to d othis now)
+# flatpak install com.brave.Browser org.gnome.gitlab.somas.Apostrophe io.github.celluloid_player.Celluloid com.mattjakeman.ExtensionManager com.discordapp.Discord
