@@ -27,6 +27,7 @@ sudo dnf install \
 sudo dnf groupupdate core &&
 
 # Enable unfiltered Flathub
+flatpak remote-delete flathub &&
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo &&
 
 # Enable adw-gt3 COPR
