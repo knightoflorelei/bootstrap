@@ -26,7 +26,13 @@ sudo dnf install gnome-tweaks &&
 sudo dnf install neovim &&
 
 # Install zsh
-sudo dnf install zsh
+sudo dnf install zsh &&
+
+# Change default shell to zsh
+chsh -s /usr/bin/zsh &&
+
+# Clone the dotfiles repo
+git clone https://github.com/knightoflorelei/dotfiles.git
 
 # Install Homebrew packages (will give command not found if the shell hasn't been reloaded)
 # brew install lf mpd mpv scrcpy powerlevel10k ranger zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting &&
