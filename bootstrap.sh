@@ -29,6 +29,9 @@ sudo dnf groupupdate core &&
 # Enable unfiltered Flathub
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo &&
 
+# Enable adw-gt3 COPR
+sudo dnf copr enable nickavem/adw-gtk3 &&
+
 # Install dnf packages
 sudo dnf install \
     gnome-tweaks \
@@ -41,7 +44,7 @@ sudo dnf install \
     kitty \
     fastfetch \
     kitty-doc \
-    gcolor \
+    gcolor3 \
     adw-gtk3 \
     adobe-source-code-pro-fonts \
     adobe-source-sans-pro-fonts \
