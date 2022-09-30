@@ -6,7 +6,6 @@ brew install \
     lf \
     scrcpy \
     powerlevel10k \
-    ranger \
     zsh-autosuggestions \
     zsh-history-substring-search \
     zsh-syntax-highlighting &&
@@ -19,5 +18,10 @@ flatpak install \
     com.mattjakeman.ExtensionManager \
     com.discordapp.Discord \
     com.github.GradienceTeam.Gradience \
-    or.gimp.GIMP
+    org.gimp.GIMP \
+    com.valvesoftware.Steam \
+    com.valvesoftware.Steam.CompatibilityTool.Proton-GE \
+    com.valvesoftware.Steam.Utility.gamescope \
+    com.github.tchx84.Flatseal \
+    org.gtk.Gtk3theme.adw-gtk3
 
