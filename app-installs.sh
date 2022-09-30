@@ -1,6 +1,9 @@
 #! /bin/bash
 # Only run this script after the bootstrap.sh has been successfully finished
 
+# Allow for unlimited resource usage
+ulimit &&
+
 # Install Homebrew packages (will give command not found if the shell hasn't been reloaded)
 brew install \
     lf \
