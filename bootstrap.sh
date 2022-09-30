@@ -1,8 +1,9 @@
 #! /bin/bash
 
 # Configure git
-git config --global user.name "knightoflorelei"
-git config --global user.email "knightoflorelei@gmail.com" 
+git config --global user.name "knightoflorelei" &&
+git config --global user.email "knightoflorelei@gmail.com" &&
+git config --global pull.rebase true &&
 
 # Upgrade the packages
 sudo dnf upgrade --refresh -y &&
@@ -13,7 +14,7 @@ sudo dnf install dnf-plugins-core -y &&
 # Enable dnf fastest mirror and increse the number of parallel downloads to max
 echo "fastestmirror=True" | sudo tee -a /etc/dnf/dnf.conf &&
 echo "max_parallel_downloads=10" | sudo tee -a /etc/dnf/dnf.conf &&
-sudo dnf clean all
+sudo dnf clean all &&
 
 # Perform a system update
 sudo dnf update &&
