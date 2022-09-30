@@ -5,7 +5,7 @@
 brew install \
     lf \
     scrcpy \
-    powerlevel10k \
+    romkatv/powerlevel10k/powerlevel10k \
     zsh-autosuggestions \
     zsh-history-substring-search \
     zsh-syntax-highlighting &&
