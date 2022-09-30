@@ -49,7 +49,7 @@ sudo dnf install \
     adobe-source-code-pro-fonts \
     adobe-source-sans-pro-fonts \
     adobe-source-serif-pro-fonts \
-    util-liunx-user \
+    util-linux-user \
     zsh &&
     
 # Change default shell to zsh
