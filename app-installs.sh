@@ -10,7 +10,7 @@
 #        _\/\\\______\//\\\___\///\\\\\/____\/\\\\\\\\\\\\\\\_ 
 #         _\///________\///______\/////______\///////////////__
 #
-# title: bootstrap.sh         
+# title: app-installs.sh         
 # user name: knightoflorelei
 # user email: knightoflorelei@gmail.com
 # creation date: September 2022
