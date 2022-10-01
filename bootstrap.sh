@@ -58,7 +58,7 @@ sudo dnf install \
 chsh -s /usr/bin/zsh &&
 
 # Clone the dotfiles repo
-git clone https://github.com/knightoflorelei/dotfiles.git &&
+# git clone https://github.com/knightoflorelei/dotfiles.git &&
 
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
