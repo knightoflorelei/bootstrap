@@ -1,5 +1,21 @@
 #! /bin/bash
 
+# __/\\\________/\\\__________________/\\\_____________        
+#  _\/\\\_____/\\\//__________________\/\\\_____________       
+#   _\/\\\__/\\\//_____________________\/\\\_____________      
+#    _\/\\\\\\//\\\__________/\\\\\_____\/\\\_____________     
+#     _\/\\\//_\//\\\_______/\\\///\\\___\/\\\_____________    
+#      _\/\\\____\//\\\_____/\\\__\//\\\__\/\\\_____________   
+#       _\/\\\_____\//\\\___\//\\\__/\\\___\/\\\_____________  
+#        _\/\\\______\//\\\___\///\\\\\/____\/\\\\\\\\\\\\\\\_ 
+#         _\///________\///______\/////______\///////////////__
+#
+# title: bootstrap.sh
+# user name: knightoflorelei
+# user email: knightoflorelei@gmail.com
+# creation date: September 2022
+# version: 0.1.0
+
 # Configure git
 git config --global user.name "knightoflorelei" &&
 git config --global user.email "knightoflorelei@gmail.com" &&
@@ -52,13 +68,11 @@ sudo dnf install \
     adobe-source-sans-pro-fonts \
     adobe-source-serif-pro-fonts \
     util-linux-user \
+    timeshift \
     zsh &&
     
 # Change default shell to zsh
 chsh -s /usr/bin/zsh &&
-
-# Clone the dotfiles repo
-# git clone https://github.com/knightoflorelei/dotfiles.git &&
 
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"

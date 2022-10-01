@@ -1,5 +1,23 @@
 #! /bin/bash
-# Only run this script after the bootstrap.sh has been successfully finished
+
+# __/\\\________/\\\__________________/\\\_____________        
+#  _\/\\\_____/\\\//__________________\/\\\_____________       
+#   _\/\\\__/\\\//_____________________\/\\\_____________      
+#    _\/\\\\\\//\\\__________/\\\\\_____\/\\\_____________     
+#     _\/\\\//_\//\\\_______/\\\///\\\___\/\\\_____________    
+#      _\/\\\____\//\\\_____/\\\__\//\\\__\/\\\_____________   
+#       _\/\\\_____\//\\\___\//\\\__/\\\___\/\\\_____________  
+#        _\/\\\______\//\\\___\///\\\\\/____\/\\\\\\\\\\\\\\\_ 
+#         _\///________\///______\/////______\///////////////__
+#
+# title: bootstrap.sh         
+# user name: knightoflorelei
+# user email: knightoflorelei@gmail.com
+# creation date: September 2022
+# version: 0.1.0
+
+# Only run this script after the bootstrap.sh has been successfully finished and the dotfiles repo
+# has been merged with home
 
 # Allow for unlimited resource usage
 ulimit &&
